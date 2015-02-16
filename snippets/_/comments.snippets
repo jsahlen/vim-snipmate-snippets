@@ -1,0 +1,15 @@
+snippet *
+	`repeat('*', (&textwidth==0?80:&textwidth)-col('$')+1)`
+
+snippet -
+	`repeat('-', (&textwidth==0?80:&textwidth)-col('$')+1)`
+
+snippet =
+	`repeat('=', (&textwidth==0?80:&textwidth)-col('$')+1)`
+
+snippet dox
+	/**
+	 * ${1}
+	 */
+	
+	${2}
